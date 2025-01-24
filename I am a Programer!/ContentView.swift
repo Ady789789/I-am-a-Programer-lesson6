@@ -18,6 +18,7 @@ struct ContentView: View {
                 .scaledToFit()
                 .foregroundStyle(.pink)
                 .frame(width: 200, height: 200)
+        
             Text(message)
                 .font(.largeTitle)
                 .fontWeight(.ultraLight)
@@ -35,7 +36,6 @@ struct ContentView: View {
                 .buttonStyle(.borderedProminent)
                 .font(.title2)
                 .tint(.orange)
-                
             }
           
         }
