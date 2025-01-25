@@ -7,20 +7,19 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		71FAC3DA2D430C6A0033743A /* I am a Programer!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I am a Programer!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		71FAC4642D455E5E0033743A /* I am a Programer  Cond w Switch Case.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "I am a Programer  Cond w Switch Case.xcodeproj"; sourceTree = "<group>"; };
+		71FAC4532D455E5B0033743A /* I am a Programer  Cond w Switch Case.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I am a Programer  Cond w Switch Case.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		71FAC3DC2D430C6A0033743A /* I am a Programer! */ = {
+		71FAC4552D455E5B0033743A /* I am a Programer  Cond w Switch Case */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "I am a Programer!";
+			path = "I am a Programer  Cond w Switch Case";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		71FAC3D72D430C6A0033743A /* Frameworks */ = {
+		71FAC4502D455E5B0033743A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -30,25 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		71FAC3D12D430C6A0033743A = {
+		71FAC44A2D455E5B0033743A = {
 			isa = PBXGroup;
 			children = (
-				71FAC3DC2D430C6A0033743A /* I am a Programer! */,
-				71FAC3DB2D430C6A0033743A /* Products */,
+				71FAC4552D455E5B0033743A /* I am a Programer  Cond w Switch Case */,
+				71FAC4542D455E5B0033743A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		71FAC3DB2D430C6A0033743A /* Products */ = {
+		71FAC4542D455E5B0033743A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				71FAC3DA2D430C6A0033743A /* I am a Programer!.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		71FAC4652D455E5E0033743A /* Products */ = {
-			isa = PBXGroup;
-			children = (
+				71FAC4532D455E5B0033743A /* I am a Programer  Cond w Switch Case.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,70 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		71FAC3D92D430C6A0033743A /* I am a Programer! */ = {
+		71FAC4522D455E5B0033743A /* I am a Programer  Cond w Switch Case */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 71FAC3E82D430C6D0033743A /* Build configuration list for PBXNativeTarget "I am a Programer!" */;
+			buildConfigurationList = 71FAC4612D455E5E0033743A /* Build configuration list for PBXNativeTarget "I am a Programer  Cond w Switch Case" */;
 			buildPhases = (
-				71FAC3D62D430C6A0033743A /* Sources */,
-				71FAC3D72D430C6A0033743A /* Frameworks */,
-				71FAC3D82D430C6A0033743A /* Resources */,
+				71FAC44F2D455E5B0033743A /* Sources */,
+				71FAC4502D455E5B0033743A /* Frameworks */,
+				71FAC4512D455E5B0033743A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				71FAC3DC2D430C6A0033743A /* I am a Programer! */,
+				71FAC4552D455E5B0033743A /* I am a Programer  Cond w Switch Case */,
 			);
-			name = "I am a Programer!";
+			name = "I am a Programer  Cond w Switch Case";
 			packageProductDependencies = (
 			);
-			productName = "I am a Programer!";
-			productReference = 71FAC3DA2D430C6A0033743A /* I am a Programer!.app */;
+			productName = "I am a Programer  Cond w Switch Case";
+			productReference = 71FAC4532D455E5B0033743A /* I am a Programer  Cond w Switch Case.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		71FAC3D22D430C6A0033743A /* Project object */ = {
+		71FAC44B2D455E5B0033743A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					71FAC3D92D430C6A0033743A = {
+					71FAC4522D455E5B0033743A = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
 			};
-			buildConfigurationList = 71FAC3D52D430C6A0033743A /* Build configuration list for PBXProject "I am a Programer!" */;
+			buildConfigurationList = 71FAC44E2D455E5B0033743A /* Build configuration list for PBXProject "I am a Programer  Cond w Switch Case" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 71FAC3D12D430C6A0033743A;
+			mainGroup = 71FAC44A2D455E5B0033743A;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 71FAC3DB2D430C6A0033743A /* Products */;
+			productRefGroup = 71FAC4542D455E5B0033743A /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 71FAC4652D455E5E0033743A /* Products */;
-					ProjectRef = 71FAC4642D455E5E0033743A /* I am a Programer  Cond w Switch Case.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				71FAC3D92D430C6A0033743A /* I am a Programer! */,
+				71FAC4522D455E5B0033743A /* I am a Programer  Cond w Switch Case */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		71FAC3D82D430C6A0033743A /* Resources */ = {
+		71FAC4512D455E5B0033743A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -129,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		71FAC3D62D430C6A0033743A /* Sources */ = {
+		71FAC44F2D455E5B0033743A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -139,7 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		71FAC3E62D430C6D0033743A /* Debug */ = {
+		71FAC45F2D455E5E0033743A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -202,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		71FAC3E72D430C6D0033743A /* Release */ = {
+		71FAC4602D455E5E0033743A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -258,14 +244,14 @@
 			};
 			name = Release;
 		};
-		71FAC3E92D430C6D0033743A /* Debug */ = {
+		71FAC4622D455E5E0033743A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"I am a Programer!/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"I am a Programer  Cond w Switch Case/Preview Content\"";
 				DEVELOPMENT_TEAM = QL9BV239CK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -279,7 +265,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ady.I-am-a-Programer-";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ady.I-am-a-Programer--Cond-w-Switch-Case";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -287,14 +273,14 @@
 			};
 			name = Debug;
 		};
-		71FAC3EA2D430C6D0033743A /* Release */ = {
+		71FAC4632D455E5E0033743A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"I am a Programer!/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"I am a Programer  Cond w Switch Case/Preview Content\"";
 				DEVELOPMENT_TEAM = QL9BV239CK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -308,7 +294,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ady.I-am-a-Programer-";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ady.I-am-a-Programer--Cond-w-Switch-Case";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -319,25 +305,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		71FAC3D52D430C6A0033743A /* Build configuration list for PBXProject "I am a Programer!" */ = {
+		71FAC44E2D455E5B0033743A /* Build configuration list for PBXProject "I am a Programer  Cond w Switch Case" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				71FAC3E62D430C6D0033743A /* Debug */,
-				71FAC3E72D430C6D0033743A /* Release */,
+				71FAC45F2D455E5E0033743A /* Debug */,
+				71FAC4602D455E5E0033743A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		71FAC3E82D430C6D0033743A /* Build configuration list for PBXNativeTarget "I am a Programer!" */ = {
+		71FAC4612D455E5E0033743A /* Build configuration list for PBXNativeTarget "I am a Programer  Cond w Switch Case" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				71FAC3E92D430C6D0033743A /* Debug */,
-				71FAC3EA2D430C6D0033743A /* Release */,
+				71FAC4622D455E5E0033743A /* Debug */,
+				71FAC4632D455E5E0033743A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 71FAC3D22D430C6A0033743A /* Project object */;
+	rootObject = 71FAC44B2D455E5B0033743A /* Project object */;
 }
