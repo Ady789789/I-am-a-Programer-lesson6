@@ -8,36 +8,40 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var message = "I AM A PRORGRAMER!"
+    @State private var message = ""
+    @State private var imageString = ""
     
     var body: some View {
         VStack {
             Spacer()
-            Image(systemName: "swiftdata")
+            Image(systemName: imageString)
                 .resizable()
                 .scaledToFit()
                 .foregroundStyle(.pink)
-                .frame(width: 200, height: 200)
-        
+                
+            
             Text(message)
                 .font(.largeTitle)
                 .fontWeight(.ultraLight)
             Spacer()
-            HStack {
-                Button("Awesome") {
-                    message = "AWESOME!"
+            
+            Button("Press Me!") {
+                let message1 = "You are Awesome!"
+                let message2 = "You are Great!"
+                let imageString1 = "hand.thumbsup"
+                let imageString2 = "sun.max.fill"
+                if message == message1{
+                    message = message2
+                    imageString = imageString1
+                } else {
+                    message = message1
+                    imageString = imageString2
                 }
-                .buttonStyle(.borderedProminent)
-                .font(.title2)
-                .tint(.orange)
-                Button("Great") {
-                    message = "Great!"
-                }
-                .buttonStyle(.borderedProminent)
-                .font(.title2)
-                .tint(.orange)
             }
-          
+            .buttonStyle(.borderedProminent)
+            .font(.title2)
+            .tint(.orange)
+    
         }
         .padding()
     }
